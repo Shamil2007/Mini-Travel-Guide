@@ -1,0 +1,17 @@
+.welcome-text {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.welcome-text p {
+    margin-bottom: 15px;
+}
+
+.btn {
+    font-size: 1.2em;
+    padding: 18px 35px;
+    margin: 15px;
+}
