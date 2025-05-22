@@ -62,4 +62,9 @@ document.addEventListener('DOMContentLoaded', function() {
     checkboxes.forEach(checkbox => {
         checkbox.addEventListener('change', saveChecklistProgress);
     });
+    
+    const checklistItems = document.querySelectorAll('.checklist-item');
+    checklistItems.forEach((item, index) => {
+        item.style.animationDelay = `${index * 0.1}s`;
+    });
 });
