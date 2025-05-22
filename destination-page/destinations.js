@@ -1,7 +1,7 @@
 function learnMore(destinationName) {
     saveToStorage('selectedDestination', destinationName);
     
-    alert('Great choice! ' + destinationName + ' is an amazing destination. Check out the Travel Tips page to prepare for your trip!');
+    alert('Great option! ' + destinationName + ' is an amazing destination. Check out the Travel Tips page to prepare for your trip!');
 }
 
 document.addEventListener('DOMContentLoaded', function() {
