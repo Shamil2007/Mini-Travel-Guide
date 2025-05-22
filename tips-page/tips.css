@@ -1,0 +1,73 @@
+.destination-message {
+    background: linear-gradient(45deg, #f39c12, #e67e22);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.tips-section {
+    margin: 30px 0;
+}
+
+.tips-list {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.tips-list ul {
+    list-style: none;
+}
+
+.tips-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 30px;
+}
+
+.tips-list li:before {
+    content: "✈️";
+    position: absolute;
+    left: 0;
+}
+
+.tips-list li:last-child {
+    border-bottom: none;
+}
+
+.checklist-section {
+    background: #f1f2f6;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 20px 0;
+}
+
+.checklist-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background: white;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.checklist-item input[type="checkbox"] {
+    margin-right: 15px;
+}
+
+.checklist-item label {
+    font-size: 1.1em;
+    flex-grow: 1;
+}
+
+.checklist-item input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+    color: #888;
+}
