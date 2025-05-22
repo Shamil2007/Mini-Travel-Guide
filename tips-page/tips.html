@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Travel Guide - Tips & Checklist</title>
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="../tips-page/tips.css">
+</head>
+<body>
+    <div class="container">
+        <div class="page">
+            <h2>📋 Travel Tips & Checklist</h2>
+            
+            <div id="destinationMessage" class="destination-message" style="display: none;">
+                Ready for your trip to <span id="selectedDestination"></span>?
+            </div>
+
+            <div class="tips-section">
+                <h3 style="color: #2c3e50; margin-bottom: 20px;">💡 Essential Travel Tips</h3>
+                <div class="tips-list">
+                    <ul>
+                        <li>Keep important documents safe and make copies</li>
+                        <li>Research local customs and basic phrases</li>
+                        <li>Notify your bank about travel plans</li>
+                        <li>Pack light and bring versatile clothing</li>
+                        <li>Keep emergency contacts handy</li>
+                        <li>Stay hydrated and get travel insurance</li>
+                        <li>Arrive at airport 2-3 hours early for international flights</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="checklist-section">
+                <h3 style="color: #2c3e50; margin-bottom: 20px;">✅ Packing Checklist</h3>
+                <div class="btn-container">
+                    <button class="btn" id="markAllBtn">Mark All Complete</button>
+                </div>
+                
+                <div class="checklist-item">
+                    <input type="checkbox" id="passport">
+                    <label for="passport">Passport & Visa (if required)</label>
+                </div>
+                
+                <div class="checklist-item">
+                    <input type="checkbox" id="powerbank">
+                    <label for="powerbank">Power bank & Chargers</label>
+                </div>
+                
+                <div class="checklist-item">
+                    <input type="checkbox" id="clothes">
+                    <label for="clothes">Appropriate Clothes</label>
+                </div>
+                
+                <div class="checklist-item">
+                    <input type="checkbox" id="id">
+                    <label for="id">ID & Driver's License</label>
+                </div>
+                
+                <div class="checklist-item">
+                    <input type="checkbox" id="medicine">
+                    <label for="medicine">Medicine & First Aid</label>
+                </div>
+                
+                <div class="checklist-item">
+                    <input type="checkbox" id="money">
+                    <label for="money">Cash & Credit Cards</label>
+                </div>
+                
+                <div class="checklist-item">
+                    <input type="checkbox" id="toiletries">
+                    <label for="toiletries">Toiletries & Personal Items</label>
+                </div>
+            </div>
+
+            <div class="btn-container">
+                <a href="../first-page/index.html" class="btn btn-secondary">🏠 Back to Home</a>
+            </div>
+        </div>
+    </div>
+    <script src="../main.js"></script>
+    <script src="../tips-page/tips.js"></script>
+</body>
+</html>
