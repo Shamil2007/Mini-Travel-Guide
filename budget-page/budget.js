@@ -38,11 +38,6 @@ function calculateBudget() {
 
     document.getElementById('budgetResult').style.display = 'block';
 
-    document.getElementById('budgetResult').scrollIntoView({ 
-        behavior: 'smooth', 
-        block: 'start' 
-    });
-
     saveBudgetData({
         flights, localTransport, nights, hotelPerNight, 
         foodPerDay, activities, shopping, emergency, grandTotal
