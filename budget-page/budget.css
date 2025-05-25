@@ -1,0 +1,161 @@
+.destination-info {
+    background: linear-gradient(45deg, #e74c3c, #c0392b);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.2em;
+    font-weight: 600;
+    animation: slideDown 0.6s ease-out;
+}
+
+.budget-form {
+    display: grid;
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+.form-section {
+    background: #f8f9fa;
+    padding: 25px;
+    border-radius: 15px;
+    border-left: 5px solid #3498db;
+}
+
+.form-section h3 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+    font-weight: 500;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 1em;
+    transition: all 0.3s ease;
+    background: white;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+}
+
+.input-group input:hover {
+    border-color: #bbb;
+}
+
+.calculate-section {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.btn-large {
+    padding: 18px 40px;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+.budget-result {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 30px 0;
+    animation: fadeInUp 0.8s ease-out;
+}
+
+.budget-result h3 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.5em;
+}
+
+.budget-breakdown {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.budget-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.budget-item:last-child {
+    border-bottom: none;
+}
+
+.budget-item.total {
+    font-size: 1.3em;
+    font-weight: 700;
+    border-top: 2px solid rgba(255, 255, 255, 0.3);
+    padding-top: 15px;
+    margin-top: 10px;
+}
+
+.total-budget {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.category {
+    font-weight: 500;
+}
+
+.amount {
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+.budget-tips {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.budget-tips h4 {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+.budget-tips ul {
+    list-style: none;
+    padding: 0;
+}
+
+.budget-tips li {
+    padding: 8px 0;
+    padding-left: 25px;
+    position: relative;
+}
+
+.budget-tips li:before {
+    content: "💡";
+    position: absolute;
+    left: 0;
+}
