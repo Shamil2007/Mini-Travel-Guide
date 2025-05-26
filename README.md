@@ -55,25 +55,33 @@ A simple and interactive 3-page travel-themed website created as an individual f
 
 ---
 
+### 4. `Budget Page` – **Expense calculator**  
+**Created by All members of group**
+
+- Stores selected expenses in `localStorage`  
+- Calculate your expenses  
+
+---
+
 ## 🗂️ Folder Structure
 
-MINI-TRAVEL-GUIDE-WEBSITE/
-│
-├── destination-page/
-│   ├── destinations.html
-│   ├── destinations.css
-│   └── destinations.js
-│
-├── first-page/
-│   ├── index.html
-│   └── index.css
-│
-├── tips-page/
-│   ├── tips.html
-│   ├── tips.css
-│   └── tips.js
-│
-├── images/
-│   ├── paris.jpg
-│   ├── tokyo.jpg
-│   └── ...
+- **MINI-TRAVEL-GUIDE-WEBSITE/**
+  - **destination-page/**
+    - destinations.html
+    - destinations.css
+    - destinations.js
+  - **first-page/**
+    - index.html
+    - index.css
+  - **tips-page/**
+    - tips.html
+    - tips.css
+    - tips.js
+  - **budget-page/**
+    - budget.html
+    - budget.css
+    - budget.js
+  - **images/**
+    - paris.jpg
+    - tokyo.jpg
+    - ...
